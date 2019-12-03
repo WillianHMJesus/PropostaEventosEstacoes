@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{E1319A3D-BB1C-479B-98C9-0082726591ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{E4D2AE30-BEDE-4E03-8698-5878FB5FFDC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{4BAEAB50-ABF7-477F-BF13-1B0D5ED5ECFC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Itau.Proposta.EventosEstacoes.Domain", "src\Itau.Proposta.EventosEstacoes.Domain\Itau.Proposta.EventosEstacoes.Domain.csproj", "{1A126A18-B6C7-4713-A210-665A52F19932}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Itau.Proposta.EventosEstacoes.Data", "src\Itau.Proposta.EventosEstacoes.Data\Itau.Proposta.EventosEstacoes.Data.csproj", "{7A15A327-618D-46EF-A5F3-0C4237B6CEBA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Itau.Proposta.EventosEstacoes.Api", "src\Itau.Proposta.EventosEstacoes.Api\Itau.Proposta.EventosEstacoes.Api.csproj", "{3E7112A3-AA88-4F0B-A641-E1BF484D51CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{BC47E728-9CE1-48FD-A94A-5ACAB479E838}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itau.Proposta.EventosEstacoes.Console", "src\Itau.Proposta.EventosEstacoes.Console\Itau.Proposta.EventosEstacoes.Console.csproj", "{55A9B601-C04C-42BC-8EDF-03C7832A6324}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A126A18-B6C7-4713-A210-665A52F19932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A126A18-B6C7-4713-A210-665A52F19932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A126A18-B6C7-4713-A210-665A52F19932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A126A18-B6C7-4713-A210-665A52F19932}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A15A327-618D-46EF-A5F3-0C4237B6CEBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A15A327-618D-46EF-A5F3-0C4237B6CEBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A15A327-618D-46EF-A5F3-0C4237B6CEBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A15A327-618D-46EF-A5F3-0C4237B6CEBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E7112A3-AA88-4F0B-A641-E1BF484D51CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E7112A3-AA88-4F0B-A641-E1BF484D51CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E7112A3-AA88-4F0B-A641-E1BF484D51CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E7112A3-AA88-4F0B-A641-E1BF484D51CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55A9B601-C04C-42BC-8EDF-03C7832A6324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55A9B601-C04C-42BC-8EDF-03C7832A6324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55A9B601-C04C-42BC-8EDF-03C7832A6324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55A9B601-C04C-42BC-8EDF-03C7832A6324}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A126A18-B6C7-4713-A210-665A52F19932} = {E1319A3D-BB1C-479B-98C9-0082726591ED}
+		{7A15A327-618D-46EF-A5F3-0C4237B6CEBA} = {E4D2AE30-BEDE-4E03-8698-5878FB5FFDC0}
+		{3E7112A3-AA88-4F0B-A641-E1BF484D51CD} = {4BAEAB50-ABF7-477F-BF13-1B0D5ED5ECFC}
+		{55A9B601-C04C-42BC-8EDF-03C7832A6324} = {BC47E728-9CE1-48FD-A94A-5ACAB479E838}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFB51D18-58AF-4CBD-9372-929DCC0B001D}
+	EndGlobalSection
+EndGlobal
